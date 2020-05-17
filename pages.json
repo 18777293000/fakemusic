@@ -1,0 +1,50 @@
+{
+	"pages": [{
+		"path": "pages/index/index"
+	},
+	{
+		"path":"pages/discovery/index"
+	},
+	{
+		"path":"pages/cloudcountry/index"
+	},
+	{
+		"path":"pages/video/index"
+	},
+	{
+		"path":"pages/search/index"
+	}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "white"
+	},
+	"tabBar":{
+		"color":"#000",
+		"borderStyle":"white",
+		"backgroundColor":"white",
+		"font-size":"48em",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"text":"我的"
+			},
+			{
+				"pagePath":"pages/discovery/index",
+				"text":"发现"
+			},
+			{
+				"pagePath":"pages/cloudcountry/index",
+				"text":"云村"
+			},
+			{
+				"pagePath":"pages/video/index",
+				"text":"视频"
+			},
+			{
+				"pagePath":"pages/search/index",
+				"text":"搜索"
+			}
+		]
+	}
+}
